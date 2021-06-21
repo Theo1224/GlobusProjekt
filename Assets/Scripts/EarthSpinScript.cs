@@ -8,7 +8,7 @@ public class EarthSpinScript : MonoBehaviour {
         transform.Rotate(Vector3.up, speed * Time.deltaTime, Space.World);
     }
 
-    void spin(float newSpeed)
+    public void spin(float newSpeed)
     {
         this.speed = newSpeed;
     }
